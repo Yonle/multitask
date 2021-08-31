@@ -66,7 +66,7 @@ function print() {
   let co = monitor.filter((s) => s.length).map((s) => s.join(""));
 
   console.clear();
-  process.stdout.write(co.join(bar()));
+  process.stdout.write(co.join(bar() + "\n"));
 }
 
 createProcess.bar = bar;
