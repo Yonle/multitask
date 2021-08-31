@@ -1,12 +1,12 @@
 {
   "name": "@yonle/multitask",
-  "version": "1.0.0-r0",
+  "version": "1.0.0-r1",
   "description": "A simple multitask script that used for development like compile/building.",
   "main": "multitask.lib.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bins": {
+  "bin": {
   	"multitask": "./multitask.js"
   },
   "repository": {
