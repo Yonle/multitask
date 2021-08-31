@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const multitask = require("./multitask.lib.js");
 try {
-  let tasks = require(process.argv.slice(2)[0] || __dirname + "/Tasks.json");
+  let tasks = require(process.argv.slice(2)[0] || process.cwd() + "/Tasks.json");
   let limit = Number(process.env.MULTITASK_LIMIT) || 4;
   let curTask = 0;
 
@@ -29,6 +29,6 @@ try {
   run();
 } catch (error) {
   if (error.code === "MODULE_NOT_FOUND")
-    return console.error("*** Multitask: No tasks file was found.");
+    return console.error("*** Multitask: No tasks file was found.", error);
   console.error(error);
 }
