@@ -29,6 +29,6 @@ try {
   run();
 } catch (error) {
   if (error.code === "MODULE_NOT_FOUND")
-    return console.error("*** Multitask: No task file was found.");
+    return console.error("*** Multitask: No tasks file was found.");
   console.error(error);
 }

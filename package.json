@@ -18,7 +18,8 @@
     "gradle",
     "multiprocess",
     "compile",
-    "build"
+    "build",
+    "multitasker"
   ],
   "author": "Yonle <yonle@protonmail.com>",
   "license": "MIT",

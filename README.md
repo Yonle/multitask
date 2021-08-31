@@ -46,7 +46,7 @@ By default, multitask only runs `4` tasks in same time. This can be changed by c
 * `args` <array>: List of string arguments.
 * `options` <Object>: https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options
 
-Returns `Promise`. Promise Resolve exit code of process
+Returns `Promise`. Promise will Resolve exit code of process.
 ```
 [Promise <pending>] {
 	spawn: // ....
