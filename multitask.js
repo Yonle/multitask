@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const multitask = require("./multitask.lib.js");
 try {
-  let tasks = require(process.argv.slice(2)[0] || process.cwd() + "/Tasks.json");
+  let tasks = require(process.argv.slice(2)[0] || process.cwd() + "/Tasks");
   let limit = Number(process.env.MULTITASK_LIMIT) || 4;
   let curTask = 0;
 

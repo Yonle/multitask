@@ -17,7 +17,7 @@ multitask
 ```sh
 multitask [File(optional)]
 ```
-By default, Multitask cli will reads a file in `Tasks.json` for Tasks list. 
+By default, Multitask cli will reads a file in `Tasks.json` or `Tasks.js` for Tasks list. 
 
 Each task is written in Array format. `Tasks.json` sometime can looks like this:
 
