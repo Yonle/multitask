@@ -37,6 +37,9 @@ ___________________________________
 /home/username
 ```
 
+#### Limiting Process
+By default, multitask only runs `4` tasks in same time. This can be changed by changing the environment variable `MULTITASK_LIMIT`
+
 ### API
 #### `createProcess(command, args, options)`
 * `command` <string>: The command to run.
