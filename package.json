@@ -1,6 +1,6 @@
 {
   "name": "@yonle/multitask",
-  "version": "1.0.0-r4",
+  "version": "1.0.0-r5",
   "description": "A simple multitask script that used for development like compile/building.",
   "main": "multitask.lib.js",
   "scripts": {
