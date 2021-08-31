@@ -1,0 +1,29 @@
+{
+  "name": "@yonle/multitask",
+  "version": "1.0.0",
+  "description": "A simple multitask script that used for development like compile/building.",
+  "main": "multitask.lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bins": {
+  	"multitask": "./multitask.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonle/multitask.git"
+  },
+  "keywords": [
+    "multitask",
+    "gradle",
+    "multiprocess",
+    "compile",
+    "build"
+  ],
+  "author": "Yonle <yonle@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yonle/multitask/issues"
+  },
+  "homepage": "https://github.com/Yonle/multitask#readme"
+}
